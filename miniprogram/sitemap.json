@@ -1,0 +1,4 @@
+{
+  "desc": "钢琴音符练习",
+  "rules": [{ "action": "allow", "page": "*" }]
+}

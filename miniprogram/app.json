@@ -1,0 +1,11 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "navigationBarTitleText": "钢琴音符小课堂",
+    "navigationBarBackgroundColor": "#5eb3e4",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#e8f6fc"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

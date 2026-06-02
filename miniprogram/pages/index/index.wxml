@@ -1,0 +1,14 @@
+<!--
+  使用前必做：
+  1. 把 ../index.html 连同资源部署到 HTTPS 域名（已备案）
+  2. 在 index.js 里填写 H5_URL
+  3. 微信公众平台 → 开发 → 开发管理 → 开发设置 → 业务域名，添加该域名
+-->
+<view class="wrap" wx:if="{{!h5Ready}}">
+  <view class="card">
+    <text class="title">请先配置网页地址</text>
+    <text class="hint">在 miniprogram/pages/index/index.js 中设置 H5_URL 为你的线上地址，并在微信公众平台配置「业务域名」。</text>
+    <text class="hint small">个人开发者账号通常无法使用 web-view，需企业主体或改用下方「微信内打开链接」方式。</text>
+  </view>
+</view>
+<web-view wx:else src="{{h5Url}}"></web-view>
